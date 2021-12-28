@@ -148,6 +148,7 @@ h6 {font-size:  16px;}
 	width: 200px;
 	object-fit: cover;
 	border: 2px solid var(--borderColor);
+	border-radius: 50%;
 }
 
 #theme-options-wrapper {
@@ -250,6 +251,31 @@ h6 {font-size:  16px;}
 #corner-bl {
 	bottom: -5px;
 	left: -5px;
+}
+
+.about-wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	padding-bottom: 50px;
+	padding-top: 50px;
+	gap: 100px;
+}
+
+#skills {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: var(--previewShadow);
+}
+
+.social-links {
+	display: grid;
+	align-content: center;
+	text-align: center;
+}
+
+#social-img {
+	width: 100%;
+	border-radius: 10px;
 }
 
 @media screen and (max-width: 1200px) {
