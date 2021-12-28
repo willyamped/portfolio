@@ -103,6 +103,7 @@ h6 {font-size:  16px;}
 }
 
 #navigation a {
+	font-size: 20px;
 	color: var(--mainText);
 }
 
@@ -272,6 +273,7 @@ h6 {font-size:  16px;}
 }
 
 #skills {
+	padding-right: 50px;
 	display: flex;
 	justify-content: space-evenly;
 	background-color: var(--previewShadow);
